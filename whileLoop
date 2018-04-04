@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read userInput
+
+tacticali=1
+
+while [ $tacticali -le $userInput ]
+do
+
+echo "${tacticali}"
+
+((tacticali++))
+
+done

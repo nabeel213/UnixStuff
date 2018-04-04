@@ -1,0 +1,18 @@
+#!/bin/bash
+
+mkdir /home/nabeel/QACNabeel/newDir
+touch /home/nabeel/QACNabeel/newDir/file111
+touch /home/nabeel/QACNabeel/newDir/file222
+
+mv /home/nabeel/QACNabeel/newDir/file111 /home/nabeel/QACNabeel
+
+chmod +x file222
+
+sudo apt install yum
+
+./file222
+
+
+
+
+

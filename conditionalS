@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+echo "hello please enter something"
+
+read userInput1
+read userInput2
+
+result="userInput1 + userInput2"
+
+if [ "result%2 -eq 0" ]
+then
+
+echo "even bruhh"
+
+else
+echo "odd fam"
+fi
+
